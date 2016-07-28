@@ -1,0 +1,158 @@
+/*==========================================================
+                        NORMALIZE
+==========================================================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  -vertical-align: top;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container, .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -padding: 0 10px 0 16px;
+}
+
+.container {
+  width: 1190px; /*1170*/
+  min-width: 1190px;
+
+}
+
+.container .row {
+  margin-left: -10px; /*-30*/
+}
+.container [class*="grid_"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 10px; /*30*/
+}
+.container .grid_1 {
+  width: 90px;
+}
+.container .grid_2 {
+  width: 190px;
+}
+.container .grid_3 {
+  width: 290px;
+}
+.container .grid_4 {
+  width: 390px;
+}
+.container .grid_5 {
+  width: 490px;
+}
+.container .grid_6 {
+  width: 590px;
+}
+.container .grid_7 {
+  width: 690px;
+}
+.container .grid_8 {
+  width: 790px;
+}
+.container .grid_9 {
+  width: 890px;
+}
+.container .grid_10 {
+  width: 990px;
+}
+.container .grid_11 {
+  width: 1070px;
+}
+.container .grid_12 {
+  width: 1170px;
+}
+
+.container .preffix_1 {
+  margin-left: 130px;
+}
+.container .preffix_2 {
+  margin-left: 230px;
+}
+.container .preffix_3 {
+  margin-left: 330px;
+}
+.container .preffix_4 {
+  margin-left: 430px;
+}
+.container .preffix_5 {
+  margin-left: 530px;
+}
+.container .preffix_6 {
+  margin-left: 630px;
+}
+.container .preffix_7 {
+  margin-left: 730px;
+}
+.container .preffix_8 {
+  margin-left: 830px;
+}
+.container .preffix_9 {
+  margin-left: 930px;
+}
+.container .preffix_10 {
+  margin-left: 1030px;
+}
+.container .preffix_11 {
+  margin-left: 1130px;
+}
+.container .preffix_12 {
+  margin-left: 1230px;
+}
+
+
+.container:before, .container-fluid:before, .row:before, .container:after, .container-fluid:after, .row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after, .container-fluid:after, .row:after {
+  clear: both;
+}

@@ -1,0 +1,36 @@
+.sl-prev, .sl-next{
+	width: 24px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.sfnlogo{
+	-moz-transition: opacity 1s ease-out;
+	-o-transition: opacity 1s ease-out;
+	-webkit-transition: opacity 1s ease-out0.3s;
+	transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+	margin-left: 40px;
+	display: block;
+}
+
+.is-sticky #leftstickmenu .sfnlogo{
+	opacity: 1;
+	height: auto;
+}
+
+#totop{
+	background: url('../images/totop.png') no-repeat;
+	width: 54px;
+	height: 54px;
+	position:fixed;
+	bottom: 100px;
+	right: 40px;
+	display: none;
+	text-indent: -9999px;
+	cursor: pointer;
+}

@@ -1,0 +1,38 @@
+/*==================  GOOGLE MAP  ======================*/
+.map_model {
+  height: 370px;
+}
+.map_model1 img {
+  max-width: none !important;
+}
+@media (max-width: 767px) {
+  .map_model {
+    height: 250px;
+  }
+}
+@media (max-width: 479px) {
+  .map_model {
+    height: 200px;
+  }
+}
+.map_locations {
+  display: none;
+}
+
+.addr_map_icon span{
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	padding-left: 17px;
+}
+
+.addr_map_icon i{
+	background: url('/images/gmap_marker.png') no-repeat;
+	width: 44px;
+	height: 69px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 5px;
+	left: 0;
+}

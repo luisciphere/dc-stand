@@ -1,0 +1,4 @@
+[08-Apr-2016 10:26:52 Europe/Moscow] PHP Fatal error:  Call to undefined function get_header() in /home/c13094/public_html/stendformat.ru/wp-content/themes/stendformat/index.php on line 6
+[19-Apr-2016 09:13:38 Europe/Moscow] PHP Fatal error:  Call to undefined function get_header() in /home/c13094/public_html/stendformat.ru/wp-content/themes/stendformat/index.php on line 6
+[12-May-2016 14:39:06 Europe/Moscow] PHP Fatal error:  Call to undefined function get_header() in /home/c13094/public_html/stendformat.ru/wp-content/themes/stendformat/index.php on line 6
+[23-Jun-2016 17:45:01 Europe/Moscow] PHP Fatal error:  Call to undefined function get_header() in /home/c13094/public_html/stendformat.ru/wp-content/themes/stendformat/index.php on line 6
